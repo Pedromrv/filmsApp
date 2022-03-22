@@ -1,0 +1,28 @@
+{
+  "name": "filmsapp",
+  "version": "1.0.0",
+  "description": "Crea una aplicación de películas para hacer una API REST con Express. Usando la API de pelis http://www.omdbapi.com",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pedromrv/filmsApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pedromrv/filmsApp/issues"
+  },
+  "homepage": "https://github.com/Pedromrv/filmsApp#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "node-fetch": "^2.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
